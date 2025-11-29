@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhe do Item</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <style>
+ body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Título principal */
+h1.display-5 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Imagem principal */
+.img-fluid.rounded {
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Descrição principal */
+p.lead {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Botão voltar */
+.btn-outline-secondary {
+  margin-top: 20px;
+}
+
+/* Título da galeria */
+h4.fw-bold {
+  font-size: 1.3rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Galeria de subitens */
+#galeriaContainer {
+  padding: 10px 0;
+  gap: 20px;
+}
+
+/* Card */
+.card-grande {
+  flex: 0 0 auto;
+  width: 200px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card-grande:hover {
+  transform: scale(1.03);
+}
+
+.card-grande img.card-img-top {
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card-grande .card-body {
+  padding: 15px;
+}
+
+.card-grande h6 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.card-grande p {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.btn-light.btn-sm {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+    </style>
+  </head>
+
+  <body class="bg-light">
+    <div class="container py-5">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <a href="../INDEX\index.html" class="btn btn-outline-dark">
+          <i class="bi bi-arrow-left"></i> Voltar
+        </a>
+        <img src="/imagens/Logo.png" alt="Logo" style="height: 50px;">
+      </div>
+      
+  <div class="bg-light">
+  <div class="container py-5">
+    <div id="itemDetalhe" class="text-center"></div>
+  </div>
+</div>
+
+    <script src="../CARDS/app.js"></script>
+  </body>
+</html>
