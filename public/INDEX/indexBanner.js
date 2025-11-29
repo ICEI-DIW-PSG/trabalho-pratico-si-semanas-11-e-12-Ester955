@@ -1,28 +1,28 @@
 const itensBanner = [
   {
     "id": 1,
-    "image": "/imagens/lapinha-da-serra.jpg",
+    "image": "/public/imagens/lapinha-da-serra.jpg",
     "alt": "Paisagem de Minas",
     "title": "Paisagens que Inspiram",
     "description": "Cachoeiras, montanhas e paisagens de tirar o fôlego."
   },
   {
     "id": 2,
-    "image": "/imagens/food.jpg",
+    "image": "/public/imagens/food.jpg",
     "alt": "Gastronomia Mineira",
     "title": "Sabores que Contam Histórias",
     "description": "Da cozinha da roça aos cafés premiados — descubra o sabor da tradição mineira."
   },
   {
     "id": 3,
-    "image": "/imagens/Mg.jpeg",
+    "image": "/public/imagens/Mg.jpeg",
     "alt": "Natureza Mineira",
     "title": "Caminhos do Tempo",
     "description": "Explore cidades coloniais, museus e os marcos da liberdade brasileira."
   },
   {
     "id": 4,
-    "image": "/imagens/festival.jpg",
+    "image": "/public/imagens/festival.jpg",
     "alt": "Cultura Mineira",
     "title": "Fé, Festa e Identidade",
     "description": "Celebre as tradições que fazem de Minas um estado único."

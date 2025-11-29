@@ -1,73 +1,73 @@
 const itensCards = [
   {
     "id": 1,
-    "image": "/CARDS/imagens1/historia.jpeg",
+    "image": "/public/CARDS/imagens1/historia.jpeg",
     "title": "História e Patrimônio",
     "subtitle": "Arte, revoluções e memória"
   },
   {
     "id": 2,
-    "image": "/imagens/mapa.jpeg",
+    "image": "/public/imagens/mapa.jpeg",
     "title": "Geografia de Minas",
     "subtitle": "Montanhas, rios e biomas"
   },
   {
     "id": 3,
-    "image": "/imagens/PicodaBandeira.jpeg",
+    "image": "/public/imagens/PicodaBandeira.jpeg",
     "title": "Paisagens Naturais",
     "subtitle": "Montanhas, cachoeiras e cânions"
   },
   {
     "id": 4,
-    "image": "/imagens/januária.jpeg",
+    "image": "/public/imagens/januária.jpeg",
     "title": "Parques Naturais",
     "subtitle": "Preservação e biodiversidade"
   },
   {
     "id": 5,
-    "image": "/imagens\\agricultura.webp",
+    "image": "/public/imagens\\agricultura.webp",
     "title": "Agricultura Mineira",
     "subtitle": "Do campo à mesa"
   },
   {
     "id": 6,
-    "image": "/imagens/paodequeijo.jpeg",
+    "image": "/public/imagens/paodequeijo.jpeg",
     "title": "Culinária Mineira",
     "subtitle": "Sabores que acolhem"
   },
   {
     "id": 7,
-    "image": "/imagens/queijo.jpeg",
+    "image": "/public/imagens/queijo.jpeg",
     "title": "Queijos",
     "subtitle": "Sabor que atravessa gerações"
   },
   {
     "id": 8,
-    "image": "/imagens/Mg2.jpeg",
+    "image": "/public/imagens/Mg2.jpeg",
     "title": "Cidades Históricas",
     "subtitle": "Barroco, fé e resistência"
   },
   {
     "id": 9,
-    "image": "/imagens/cultura.jpeg",
+    "image": "/public/imagens/cultura.jpeg",
     "title": "Festas e Tradições",
     "subtitle": "Fé, música e identidade"
   },
   {
     "id": 10,
-    "image": "/imagens/juscelino.webp",
+    "image": "/public/imagens/juscelino.webp",
     "title": "Personalidades Mineiras",
     "subtitle": "Gênios que nasceram em Minas"
   },
   {
     "id": 11,
-    "image": "/imagens/bh.jpg",
+    "image": "/public/imagens/bh.jpg",
     "title": "Belo Horizonte",
     "subtitle": "Tradição e modernidade"
   },
   {
     "id": 12,
-    "image": "/imagens/ciencia.webp",
+    "image": "/public/imagens/ciencia.webp",
     "title": "Ciência e Educação",
     "subtitle": "Conhecimento que transforma"
   }

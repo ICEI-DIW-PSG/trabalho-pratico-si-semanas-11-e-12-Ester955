@@ -1,18 +1,111 @@
 {
-  "usuarios": [
+  "banners": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "title": "Paisagens que Inspiram",
+      "description": "Cachoeiras, montanhas e paisagens de tirar o fôlego.",
+      "image": "/imagens/lapinha-da-serra.jpg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "2",
+      "title": "Sabores que Contam Histórias",
+      "description": "Da cozinha da roça aos cafés premiados.",
+      "image": "/imagens/food.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Caminhos do Tempo",
+      "description": "Explore cidades coloniais e marcos da liberdade.",
+      "image": "/imagens/Mg.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Fé, Festa e Identidade",
+      "description": "Celebre as tradições que fazem de Minas um estado único.",
+      "image": "/imagens/festival.jpg"
+    }
+  ],
+  "destaques": [
+    {
+      "id": "1",
+      "title": "História e Patrimônio - ATUALIZADO",
+      "subtitle": "Arte, revoluções e memória",
+      "image": "/CARDS/imagens1/historia.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Geografia de Minas",
+      "subtitle": "Montanhas, rios e biomas",
+      "image": "/imagens/mapa.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Paisagens Naturais",
+      "subtitle": "Montanhas, cachoeiras e cânions",
+      "image": "imagens/PicodaBandeira.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Parques Naturais",
+      "subtitle": "Preservação e biodiversidade",
+      "image": "imagens/januária.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "Agricultura Mineira",
+      "subtitle": "Do campo à mesa",
+      "image": "imagens/agricultura.webp"
+    },
+    {
+      "id": "6",
+      "title": "Culinária Mineira",
+      "subtitle": "Sabores que acolhem",
+      "image": "imagens/paodequeijo.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Queijos",
+      "subtitle": "Sabor que atravessa gerações",
+      "image": "imagens/queijo.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Cidades Históricas",
+      "subtitle": "Barroco, fé e resistência",
+      "image": "imagens/Mg2.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Festas e Tradições",
+      "subtitle": "Fé, música e identidade",
+      "image": "/imagens/cultura.jpeg"
+    },
+    {
+      "id": "10",
+      "title": "Personalidades Mineiras",
+      "subtitle": "Gênios que nasceram em Minas",
+      "image": "/imagens/juscelino.webp"
+    },
+    {
+      "id": "11",
+      "title": "Belo Horizonte",
+      "subtitle": "Tradição e modernidade",
+      "image": "/imagens/bh.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Ciência e Educação",
+      "subtitle": "Conhecimento que transforma",
+      "image": "/imagens/ciencia.webp"
+    }
+  ],
+  "autor": [
+    {
+      "id": "1",
+      "nome": "Ester Cristine de Assis Ferreira",
+      "curso": "Sistema de Informação",
+      "turma": "Manhã",
+      "bio": "Apaixonada por tecnologia, inovação e resolver problemas com criatividade."
     }
   ]
 }

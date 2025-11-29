@@ -5,13 +5,13 @@ const itensMinas = [
     "nome": "Paisagens Naturais",
     "descricao": "Montanhas, cachoeiras e cânions que revelam a alma de Minas.",
     "conteudo": "Minas Gerais é um convite à contemplação e à aventura, com cenários naturais que encantam e inspiram.",
-    "imagem_principal": "/CARDS/imagens3/pico_da_bandeira.jpg",
+    "imagem_principal": "/public/CARDS/imagens3/pico_da_bandeira.jpg",
     "atracoes": [
       {
         "id": 1,
         "nome": "Serra do Cipó",
         "descricao": "Trilhas e cachoeiras em meio à biodiversidade da Serra do Espinhaço.",
-        "imagem": "/CARDS/imagens3/serra-do-cipo.jpg",
+        "imagem": "/public/CARDS/imagens3/serra-do-cipo.jpg",
         "curiosidades": {
           "informacoes_gerais": "Localizada em Santana do Riacho, abriga espécies endêmicas.",
           "acesso_e_trilhas": "Entrada por Cardeal Mota. Trilhas como Cachoeira da Farofa.",
@@ -23,7 +23,7 @@ const itensMinas = [
         "id": 2,
         "nome": "Capitólio",
         "descricao": "Cânions e lago de Furnas em meio às águas cristalinas.",
-        "imagem": "/CARDS/imagens3/capitolio.jpg",
+        "imagem": "/public/CARDS/imagens3/capitolio.jpg",
         "curiosidades": {
           "informacoes_gerais": "Conhecido como o 'mar de Minas'.",
           "acesso_e_trilhas": "Passeios de lancha e trilhas como Morro do Chapéu.",
@@ -35,7 +35,7 @@ const itensMinas = [
         "id": 3,
         "nome": "Cachoeira do Tabuleiro",
         "descricao": "Maior queda d’água de Minas, com 273 metros.",
-        "imagem": "/CARDS/imagens3/cachoeira-do-tabuleiro.jpg",
+        "imagem": "/public/CARDS/imagens3/cachoeira-do-tabuleiro.jpg",
         "curiosidades": {
           "informacoes_gerais": "Localizada em Conceição do Mato Dentro.",
           "acesso_e_trilhas": "Trilha de 3 km até a base.",
@@ -47,7 +47,7 @@ const itensMinas = [
         "id": 4,
         "nome": "Serra da Canastra",
         "descricao": "Berço do Rio São Francisco e do queijo Canastra.",
-        "imagem": "/CARDS/imagens3/serra-da-canastra.jpg",
+        "imagem": "/public/CARDS/imagens3/serra-da-canastra.jpg",
         "curiosidades": {
           "informacoes_gerais": "Abriga fauna como o lobo-guará.",
           "acesso_e_trilhas": "Entrada por São Roque de Minas.",
@@ -59,7 +59,7 @@ const itensMinas = [
         "id": 5,
         "nome": "Ibitipoca",
         "descricao": "Parque com grutas, mirantes e trilhas encantadoras.",
-        "imagem": "/CARDS/imagens4/ibitipoca.jpg",
+        "imagem": "/public/CARDS/imagens4/ibitipoca.jpg",
         "curiosidades": {
           "informacoes_gerais": "Localizado em Lima Duarte.",
           "acesso_e_trilhas": "Trilhas como Janela do Céu.",
@@ -76,13 +76,13 @@ const itensMinas = [
     "nome": "Culinária Mineira",
     "descricao": "Sabores que acolhem e contam histórias.",
     "conteudo": "A cozinha mineira é feita de afeto, tradição e ingredientes simples que encantam o paladar.",
-    "imagem_principal": "/BANNER/imagens2/tutu-de-feijão.jpg",
+    "imagem_principal": "/public/BANNER/imagens2/tutu-de-feijão.jpg",
     "atracoes": [
       {
         "id": 1,
         "nome": "Pão de Queijo",
         "descricao": "Símbolo da hospitalidade mineira.",
-        "imagem": "/CARDS/imagens6/pão-de-queijo.jpg",
+        "imagem": "/public/CARDS/imagens6/pão-de-queijo.jpg",
         "curiosidades": {
           "informacoes_gerais": "Feito com polvilho e queijo curado.",
           "acesso_e_trilhas": "Encontrado em toda padaria mineira.",
@@ -94,7 +94,7 @@ const itensMinas = [
         "id": 2,
         "nome": "Feijão Tropeiro",
         "descricao": "Prato típico dos tropeiros.",
-        "imagem": "/CARDS/imagens6/feijao-tropeiro.jpg",
+        "imagem": "/public/CARDS/imagens6/feijao-tropeiro.jpg",
         "curiosidades": {
           "informacoes_gerais": "Feijão, farinha, ovos e torresmo.",
           "acesso_e_trilhas": "Servido em restaurantes tradicionais.",
@@ -106,7 +106,7 @@ const itensMinas = [
         "id": 3,
         "nome": "Frango com Quiabo",
         "descricao": "Clássico das fazendas mineiras.",
-        "imagem": "/CARDS/imagens6/frango-com-quiabo.jpg",
+        "imagem": "/public/CARDS/imagens6/frango-com-quiabo.jpg",
         "curiosidades": {
           "informacoes_gerais": "Servido com angu e cheiro verde.",
           "acesso_e_trilhas": "Presente em almoços de domingo.",
@@ -118,7 +118,7 @@ const itensMinas = [
         "id": 4,
         "nome": "Doce de Leite",
         "descricao": "Cremoso e artesanal.",
-        "imagem": "/CARDS/imagens6/doce-de-leite.jpg",
+        "imagem": "/public/CARDS/imagens6/doce-de-leite.jpg",
         "curiosidades": {
           "informacoes_gerais": "Feito com leite e açúcar.",
           "acesso_e_trilhas": "Encontrado em feiras e quitandas.",
@@ -130,7 +130,7 @@ const itensMinas = [
         "id": 5,
         "nome": "Tutu de Feijão",
         "descricao": "Feijão batido com farinha e temperos.",
-        "imagem": "/CARDS/imagens6/tutu-de-feijão.jpg",
+        "imagem": "/public/CARDS/imagens6/tutu-de-feijão.jpg",
         "curiosidades": {
           "informacoes_gerais": "Servido com linguiça e couve.",
           "acesso_e_trilhas": "Presente em festas e almoços.",
@@ -147,13 +147,13 @@ const itensMinas = [
   "nome": "Cidades Históricas",
   "descricao": "Minas guarda o legado colonial brasileiro em cidades que respiram arte, fé e resistência.",
   "conteudo": "As cidades históricas de Minas Gerais são verdadeiros museus a céu aberto. Com arquitetura barroca, igrejas centenárias e ruas de pedra, elas preservam a memória da Inconfidência Mineira e da cultura nacional.",
-  "imagem_principal": "/CARDS/imagens8/imgPrincipal.png",
+  "imagem_principal": "/public/CARDS/imagens8/imgPrincipal.png",
   "atracoes": [
     {
       "id": 1,
       "nome": "Ouro Preto",
       "descricao": "Patrimônio Mundial da UNESCO, berço da arte barroca e da Inconfidência.",
-      "imagem": "/CARDS/imagens8/ouro-preto.jpg",
+      "imagem": "/public/CARDS/imagens8/ouro-preto.jpg",
       "curiosidades": {
         "informacoes_gerais": "Fundada no século XVII, foi capital de Minas até 1897.",
         "acesso_e_trilhas": "Acesso por BR-356. Caminhadas pelo centro histórico.",
@@ -165,7 +165,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Tiradentes",
       "descricao": "Charmosa e acolhedora, famosa por sua gastronomia e arquitetura colonial.",
-      "imagem": "/CARDS/imagens8/tiradentes.jpg",
+      "imagem": "/public/CARDS/imagens8/tiradentes.jpg",
       "curiosidades": {
         "informacoes_gerais": "Cidade pequena com grande valor histórico e cultural.",
         "acesso_e_trilhas": "Acesso por BR-265. Trilhas para Serra de São José.",
@@ -177,7 +177,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Mariana",
       "descricao": "Primeira vila e cidade de Minas, com igrejas e museus históricos.",
-      "imagem": "/CARDS/imagens8/mariana.png",
+      "imagem": "/public/CARDS/imagens8/mariana.png",
       "curiosidades": {
         "informacoes_gerais": "Fundada em 1696, foi sede do primeiro bispado de Minas.",
         "acesso_e_trilhas": "Acesso por trem turístico desde Ouro Preto.",
@@ -189,7 +189,7 @@ const itensMinas = [
       "id": 4,
       "nome": "São João del-Rei",
       "descricao": "Mistura história e religiosidade em belas construções coloniais.",
-      "imagem": "/CARDS/imagens8/Sao-Joao-del-Rei.jpg",
+      "imagem": "/public/CARDS/imagens8/Sao-Joao-del-Rei.jpg",
       "curiosidades": {
         "informacoes_gerais": "Cidade natal de Tancredo Neves.",
         "acesso_e_trilhas": "Acesso por BR-265. Passeios de maria-fumaça até Tiradentes.",
@@ -201,7 +201,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Congonhas",
       "descricao": "Conhecida pelos Profetas de Aleijadinho, obra-prima do barroco.",
-      "imagem": "/CARDS/imagens8/congonhas.jpg",
+      "imagem": "/public/CARDS/imagens8/congonhas.jpg",
       "curiosidades": {
         "informacoes_gerais": "Santuário do Bom Jesus de Matosinhos é Patrimônio Mundial.",
         "acesso_e_trilhas": "Acesso por BR-040. Caminhadas pelo centro histórico.",
@@ -218,13 +218,13 @@ const itensMinas = [
   "nome": "Festas e Tradições",
   "descricao": "Celebrações que misturam fé, música, dança e identidade cultural.",
   "conteudo": "Minas Gerais é palco de festas populares que revelam a alma do seu povo. Com raízes afro-brasileiras, indígenas e europeias, essas tradições mantêm viva a memória e a espiritualidade mineira.",
-  "imagem_principal": "/imagens/festa.webp",
+  "imagem_principal": "/public/imagens/festa.webp",
   "atracoes": [
     {
       "id": 1,
       "nome": "Congado",
       "descricao": "Festa afro-brasileira com música, dança e devoção aos santos negros.",
-      "imagem": "/CARDS/imagens9/congado.jpg",
+      "imagem": "/public/CARDS/imagens9/congado.jpg",
       "curiosidades": {
         "informacoes_gerais": "Presente em cidades como Uberlândia e Contagem.",
         "acesso_e_trilhas": "Acontece em praças e igrejas locais.",
@@ -236,7 +236,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Folia de Reis",
       "descricao": "Celebração natalina com cantos, trajes coloridos e instrumentos típicos.",
-      "imagem": "/CARDS/imagens9/folia-de-reis.jpg",
+      "imagem": "/public/CARDS/imagens9/folia-de-reis.jpg",
       "curiosidades": {
         "informacoes_gerais": "Realizada entre dezembro e janeiro.",
         "acesso_e_trilhas": "Presente em comunidades rurais e urbanas.",
@@ -248,7 +248,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Festa do Divino",
       "descricao": "Celebração religiosa com procissões, danças e comidas típicas.",
-      "imagem": "/CARDS/imagens9/festa-do-divino.jpg",
+      "imagem": "/public/CARDS/imagens9/festa-do-divino.jpg",
       "curiosidades": {
         "informacoes_gerais": "Comum em cidades como São João del-Rei.",
         "acesso_e_trilhas": "Procissões pelas ruas e missas festivas.",
@@ -260,7 +260,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Carnaval de Rua",
       "descricao": "Blocos tradicionais com marchinhas, fantasias e alegria.",
-      "imagem": "/CARDS/imagens9/carnaval.jpg",
+      "imagem": "/public/CARDS/imagens9/carnaval.jpg",
       "curiosidades": {
         "informacoes_gerais": "Belo Horizonte tem mais de 400 blocos.",
         "acesso_e_trilhas": "Desfiles gratuitos pelas ruas da cidade.",
@@ -272,7 +272,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Festival de Inverno",
       "descricao": "Eventos culturais com música, teatro e exposições.",
-      "imagem": "/CARDS/imagens9/festival-inverno.jpg",
+      "imagem": "/public/CARDS/imagens9/festival-inverno.jpg",
       "curiosidades": {
         "informacoes_gerais": "Realizado em cidades como Ouro Preto e Diamantina.",
         "acesso_e_trilhas": "Programação em praças, teatros e universidades.",
@@ -289,13 +289,13 @@ const itensMinas = [
   "nome": "Ciência e Educação",
   "descricao": "Conhecimento que transforma, pesquisa que inspira.",
   "conteudo": "Minas Gerais é referência nacional em educação e ciência. Com universidades renomadas, centros de pesquisa e iniciativas comunitárias, o estado forma mentes brilhantes e promove inovação com raízes profundas.",
-  "imagem_principal": "/CARDS/imagens12/ciencias.webp",
+  "imagem_principal": "/public/CARDS/imagens12/ciencias.webp",
   "atracoes": [
     {
       "id": 1,
       "nome": "UFMG – Universidade Federal de Minas Gerais",
       "descricao": "Centro de excelência em ensino, pesquisa e extensão.",
-      "imagem": "/CARDS/imagens12/UFMG.webp",
+      "imagem": "/public/CARDS/imagens12/UFMG.webp",
       "curiosidades": {
         "informacoes_gerais": "Fundada em 1927, é uma das maiores universidades públicas do país.",
         "acesso_e_trilhas": "Campus Pampulha em BH, com museus, laboratórios e bibliotecas.",
@@ -307,7 +307,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Fundação Oswaldo Cruz – Fiocruz Minas",
       "descricao": "Pesquisa em saúde pública e biotecnologia.",
-      "imagem": "/CARDS/imagens12/fiocruz.webp",
+      "imagem": "/public/CARDS/imagens12/fiocruz.webp",
       "curiosidades": {
         "informacoes_gerais": "Atua em epidemiologia, vacinas e doenças tropicais.",
         "acesso_e_trilhas": "Sede em Belo Horizonte, com visitas guiadas.",
@@ -319,7 +319,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Educação Rural",
       "descricao": "Escolas que conectam saberes da terra com o mundo.",
-      "imagem": "/CARDS/imagens12/rural.webp",
+      "imagem": "/public/CARDS/imagens12/rural.webp",
       "curiosidades": {
         "informacoes_gerais": "Presente em comunidades do Jequitinhonha, Norte e Zona da Mata.",
         "acesso_e_trilhas": "Projetos como Escola Família Agrícola e Pedagogia da Alternância.",
@@ -331,7 +331,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Museus Interativos",
       "descricao": "Ciência para tocar, experimentar e aprender.",
-      "imagem": "/CARDS/imagens12/museu.webp",
+      "imagem": "/public/CARDS/imagens12/museu.webp",
       "curiosidades": {
         "informacoes_gerais": "Inclui Espaço do Conhecimento, MM Gerdau e Museu das Minas e do Metal.",
         "acesso_e_trilhas": "Localizados em BH, com entrada gratuita ou acessível.",
@@ -343,7 +343,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Olimpíadas Científicas",
       "descricao": "Talentos mineiros que brilham em competições nacionais e internacionais.",
-      "imagem": "/CARDS/imagens12/olimpíadas.webp",
+      "imagem": "/public/CARDS/imagens12/olimpíadas.webp",
       "curiosidades": {
         "informacoes_gerais": "Minas se destaca em matemática, física, química e robótica.",
         "acesso_e_trilhas": "Escolas públicas e privadas participam ativamente.",
@@ -360,13 +360,13 @@ const itensMinas = [
   "nome": "História e Patrimônio",
   "descricao": "Minas é berço de revoluções, arte barroca e identidade nacional.",
   "conteudo": "Com raízes profundas no ciclo do ouro e na luta pela liberdade, Minas Gerais preserva sua história em museus, igrejas e cidades que resistem ao tempo.",
-  "imagem_principal": "/CARDS/imagens1/imgPrincipal.jpg",
+  "imagem_principal": "/public/CARDS/imagens1/imgPrincipal.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Inconfidência Mineira",
       "descricao": "Movimento pela independência liderado por Tiradentes.",
-      "imagem": "/CARDS/imagens1/incofidencia.jpg",
+      "imagem": "/public/CARDS/imagens1/incofidencia.jpg",
       "curiosidades": {
         "informacoes_gerais": "Ocorreu no século XVIII em Ouro Preto.",
         "acesso_e_trilhas": "Museu da Inconfidência e Casa dos Contos.",
@@ -378,7 +378,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Ciclo do Ouro",
       "descricao": "Período de riqueza e desenvolvimento artístico.",
-      "imagem": "/CARDS/imagens1/ciclo-do-ouro.jpg",
+      "imagem": "/public/CARDS/imagens1/ciclo-do-ouro.jpg",
       "curiosidades": {
         "informacoes_gerais": "Século XVIII, auge da mineração.",
         "acesso_e_trilhas": "Roteiros em Sabará, Mariana e Ouro Preto.",
@@ -390,7 +390,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Aleijadinho",
       "descricao": "Escultor e arquiteto símbolo do barroco mineiro.",
-      "imagem": "/CARDS/imagens1/alejadinho.jpg",
+      "imagem": "/public/CARDS/imagens1/alejadinho.jpg",
       "curiosidades": {
         "informacoes_gerais": "Antônio Francisco Lisboa, filho de escrava.",
         "acesso_e_trilhas": "Obras em Congonhas, Ouro Preto e São João del-Rei.",
@@ -402,7 +402,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Museus de Minas",
       "descricao": "Espaços que preservam arte, ciência e memória.",
-      "imagem": "/CARDS/imagens1/museu.jpg",
+      "imagem": "/public/CARDS/imagens1/museu.jpg",
       "curiosidades": {
         "informacoes_gerais": "Inclui Museu de Ciências Naturais e Museu da Vale.",
         "acesso_e_trilhas": "Localizados em BH, Ouro Preto e Mariana.",
@@ -414,7 +414,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Estrada Real",
       "descricao": "Rota histórica que ligava Minas ao litoral.",
-      "imagem": "/CARDS/imagens1/estrada-real.jpg",
+      "imagem": "/public/CARDS/imagens1/estrada-real.jpg",
       "curiosidades": {
         "informacoes_gerais": "Criada para escoar ouro e fiscalizar impostos.",
         "acesso_e_trilhas": "Trilhas sinalizadas para caminhadas e ciclismo.",
@@ -431,13 +431,13 @@ const itensMinas = [
   "nome": "Personalidades Mineiras",
   "descricao": "Gênios que nasceram em Minas e brilharam no Brasil e no mundo.",
   "conteudo": "Minas Gerais é berço de artistas, escritores, atletas e líderes que marcaram a história. Suas trajetórias refletem o talento, a sensibilidade e a força do povo mineiro.",
-  "imagem_principal": "/CARDS/imagens10/carolina-de-jesus.webp",
+  "imagem_principal": "/public/CARDS/imagens10/carolina-de-jesus.webp",
   "atracoes": [
     {
       "id": 1,
       "nome": "Carlos Drummond de Andrade",
       "descricao": "Poeta de Itabira, ícone da literatura brasileira.",
-      "imagem": "/CARDS/imagens10/drummond.webp",
+      "imagem": "/public/CARDS/imagens10/drummond.webp",
       "curiosidades": {
         "informacoes_gerais": "Nasceu em 1902. Autor de 'No meio do caminho'.",
         "acesso_e_trilhas": "Museu de Itabira e estátua em Copacabana.",
@@ -449,7 +449,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Pelé",
       "descricao": "O Rei do Futebol, nascido em Três Corações.",
-      "imagem": "/CARDS/imagens10/pele.webp",
+      "imagem": "/public/CARDS/imagens10/pele.webp",
       "curiosidades": {
         "informacoes_gerais": "Maior jogador da história, tricampeão mundial.",
         "acesso_e_trilhas": "Museu Pelé em Santos e memorial em Três Corações.",
@@ -462,7 +462,7 @@ const itensMinas = [
   "id": 3,
   "nome": "Clara Nunes",
   "descricao": "Cantora que exaltou as raízes afro-brasileiras.",
-  "imagem": "/CARDS/imagens10/clara-nunes.webp",
+  "imagem": "/public/CARDS/imagens10/clara-nunes.webp",
   "curiosidades": {
     "informacoes_gerais": "Uma das primeiras mulheres a vender mais de 100 mil discos no Brasil.",
     "acesso_e_trilhas": "Discografia, especiais de TV e homenagens disponíveis.",
@@ -475,7 +475,7 @@ const itensMinas = [
   "id": 4,
   "nome": "Milton Nascimento",
   "descricao": "Cantor e compositor que levou Minas ao mundo.",
-  "imagem": "/CARDS/imagens10/milton.webp",
+  "imagem": "/public/CARDS/imagens10/milton.webp",
   "curiosidades": {
     "informacoes_gerais": "Nasceu no Rio, mas foi criado em Três Pontas.",
     "acesso_e_trilhas": "Shows, discos e documentários disponíveis.",
@@ -488,7 +488,7 @@ const itensMinas = [
   "id": 5,
   "nome": "Guimarães Rosa",
   "descricao": "Escritor que reinventou a linguagem literária brasileira.",
-  "imagem": "/CARDS/imagens10/guimarães.webp",
+  "imagem": "/public/CARDS/imagens10/guimarães.webp",
   "curiosidades": {
     "informacoes_gerais": "Autor de 'Grande Sertão: Veredas', obra-prima do modernismo.",
     "acesso_e_trilhas": "Livros, estudos acadêmicos e exposições literárias.",
@@ -506,13 +506,13 @@ const itensMinas = [
   "nome": "Parques Naturais",
   "descricao": "Preservação, lazer e biodiversidade em terras mineiras.",
   "conteudo": "Minas Gerais abriga parques estaduais e nacionais que protegem ecossistemas únicos. São refúgios para quem busca contato com a natureza e experiências sustentáveis.",
-  "imagem_principal": "/CARDS/imagens4/imgPrincipal.jpg",
+  "imagem_principal": "/public/CARDS/imagens4/imgPrincipal.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Parque Nacional da Serra da Canastra",
       "descricao": "Berço do Rio São Francisco e lar do lobo-guará.",
-      "imagem": "/CARDS/imagens4/serra-da-canastra.jpg",
+      "imagem": "/public/CARDS/imagens4/serra-da-canastra.jpg",
       "curiosidades": {
         "informacoes_gerais": "Criado em 1972, com mais de 200 mil hectares.",
         "acesso_e_trilhas": "Entrada por São Roque de Minas.",
@@ -524,7 +524,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Parque Estadual do Rio Doce",
       "descricao": "Maior lagoa natural em área protegida do Brasil.",
-      "imagem": "/CARDS/imagens4/rio-doce.jpg",
+      "imagem": "/public/CARDS/imagens4/rio-doce.jpg",
       "curiosidades": {
         "informacoes_gerais": "Localizado entre Marliéria e Timóteo.",
         "acesso_e_trilhas": "Trilhas ecológicas e observação de aves.",
@@ -536,7 +536,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Parque Estadual do Ibitipoca",
       "descricao": "Grutas, mirantes e trilhas em meio à mata atlântica.",
-      "imagem": "/CARDS/imagens4/ibitipoca.jpg",
+      "imagem": "/public/CARDS/imagens4/ibitipoca.jpg",
       "curiosidades": {
         "informacoes_gerais": "Área de 1.488 hectares em Lima Duarte.",
         "acesso_e_trilhas": "Trilhas como Janela do Céu e Pico do Pião.",
@@ -548,7 +548,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Parque Nacional do Caparaó",
       "descricao": "Abriga o Pico da Bandeira e florestas de altitude.",
-      "imagem": "/CARDS/imagens4/Caparao.jpg",
+      "imagem": "/public/CARDS/imagens4/Caparao.jpg",
       "curiosidades": {
         "informacoes_gerais": "Localizado entre MG e ES.",
         "acesso_e_trilhas": "Entrada por Alto Caparaó. Trilha até o cume.",
@@ -560,7 +560,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Parque Estadual do Biribiri",
       "descricao": "Refúgio natural com cachoeiras e vila histórica.",
-      "imagem": "/CARDS/imagens4/Biribiri.jpg",
+      "imagem": "/public/CARDS/imagens4/Biribiri.jpg",
       "curiosidades": {
         "informacoes_gerais": "Fica em Diamantina, com acesso fácil.",
         "acesso_e_trilhas": "Trilhas leves para Cachoeira do Sentinela.",
@@ -578,13 +578,13 @@ const itensMinas = [
   "nome": "Belo Horizonte",
   "descricao": "A capital mineira que une tradição e modernidade.",
   "conteudo": "Belo Horizonte é o coração urbano de Minas Gerais. Com arquitetura arrojada, parques, cultura vibrante e gastronomia premiada, a cidade encanta moradores e visitantes.",
-  "imagem_principal": "/CARDS/imagens11/bh.webp",
+  "imagem_principal": "/public/CARDS/imagens11/bh.webp",
   "atracoes": [
     {
       "id": 1,
       "nome": "Praça da Liberdade",
       "descricao": "Conjunto arquitetônico e cultural no centro da cidade.",
-      "imagem": "/CARDS/imagens11/Praça-da-Liberdade.webp",
+      "imagem": "/public/CARDS/imagens11/Praça-da-Liberdade.webp",
       "curiosidades": {
         "informacoes_gerais": "Abriga museus, jardins e prédios históricos.",
         "acesso_e_trilhas": "Acesso fácil por metrô e ônibus.",
@@ -596,7 +596,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Lagoa da Pampulha",
       "descricao": "Cartão-postal com obras de Niemeyer e Burle Marx.",
-      "imagem": "/CARDS/imagens11/lagoa-pampulha.webp",
+      "imagem": "/public/CARDS/imagens11/lagoa-pampulha.webp",
       "curiosidades": {
         "informacoes_gerais": "Patrimônio Cultural da Humanidade pela UNESCO.",
         "acesso_e_trilhas": "Ciclovia e mirantes ao redor da lagoa.",
@@ -608,7 +608,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Mercado Central",
       "descricao": "Sabores, aromas e tradições em um só lugar.",
-      "imagem": "/CARDS/imagens11/mercadão.webp",
+      "imagem": "/public/CARDS/imagens11/mercadão.webp",
       "curiosidades": {
         "informacoes_gerais": "Mais de 400 lojas e barracas.",
         "acesso_e_trilhas": "Localizado no centro, com estacionamento.",
@@ -620,7 +620,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Igreja de São Francisco de Assis",
       "descricao": "Obra-prima modernista de Oscar Niemeyer na Pampulha.",
-      "imagem": "/CARDS/imagens11/igreja.webp",
+      "imagem": "/public/CARDS/imagens11/igreja.webp",
       "curiosidades": {
         "informacoes_gerais": "Inaugurada em 1943, é considerada a obra mais icônica do Conjunto Arquitetônico da Pampulha.",
         "acesso_e_trilhas": "Localizada às margens da Lagoa da Pampulha, com acesso por ciclovia e transporte público.",
@@ -632,7 +632,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Feira Hippie",
       "descricao": "A maior feira de artesanato a céu aberto da América Latina.",
-      "imagem": "/CARDS/imagens11/feira-hippie.webp",
+      "imagem": "/public/CARDS/imagens11/feira-hippie.webp",
       "curiosidades": {
         "informacoes_gerais": "Acontece aos domingos na Av. Afonso Pena.",
         "acesso_e_trilhas": "Mais de 2 mil expositores.",
@@ -649,13 +649,13 @@ const itensMinas = [
   "nome": "Agricultura Mineira",
   "descricao": "Do café ao queijo, da roça à inovação: o campo mineiro alimenta o Brasil.",
   "conteudo": "Minas Gerais é referência nacional na produção agropecuária. Com diversidade de climas e solos, o estado cultiva e cria alimentos que vão da tradição à exportação, com destaque para o café, leite, milho, feijão e o famoso queijo artesanal.",
-  "imagem_principal": "/CARDS/imagens5/agricultura.jpg",
+  "imagem_principal": "/public/CARDS/imagens5/agricultura.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Café",
       "descricao": "Minas é líder nacional na produção de café.",
-      "imagem": "/CARDS/imagens5/cafe.jpeg",
+      "imagem": "/public/CARDS/imagens5/cafe.jpeg",
       "curiosidades": {
         "informacoes_gerais": "Mais de 50% do café brasileiro vem de Minas.",
         "acesso_e_trilhas": "Regiões como Cerrado Mineiro e Matas de Minas.",
@@ -667,7 +667,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Agropecuária",
       "descricao": "Criação de gado e produção de leite e carne de qualidade.",
-      "imagem": "/CARDS/imagens5/agro.webp",
+      "imagem": "/public/CARDS/imagens5/agro.webp",
       "curiosidades": {
         "informacoes_gerais": "Minas é o maior produtor de leite do Brasil e tem forte presença na pecuária de corte.",
         "acesso_e_trilhas": "Fazendas em Araxá, Uberaba e região do Triângulo Mineiro.",
@@ -680,7 +680,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Agricultura Familiar",
       "descricao": "Produção feita por famílias que vivem e trabalham na terra.",
-      "imagem": "/CARDS/imagens5/familiar.webp",
+      "imagem": "/public/CARDS/imagens5/familiar.webp",
       "curiosidades": {
         "informacoes_gerais": "Responsável por grande parte dos alimentos consumidos no estado.",
         "acesso_e_trilhas": "Presente em regiões como Jequitinhonha, Zona da Mata e Norte de Minas.",
@@ -693,7 +693,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Agroecologia",
       "descricao": "Sistemas sustentáveis que respeitam o meio ambiente.",
-      "imagem": "/CARDS/imagens5/ecologia.webp",
+      "imagem": "/public/CARDS/imagens5/ecologia.webp",
       "curiosidades": {
         "informacoes_gerais": "Integra produção agrícola com conservação ambiental.",
         "acesso_e_trilhas": "Projetos em Viçosa, Serro e Alto Jequitinhonha.",
@@ -706,7 +706,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Milho e Feijão",
       "descricao": "Base da alimentação brasileira, cultivados em larga escala.",
-      "imagem": "/CARDS/imagens5/milho-feijao.webp",
+      "imagem": "/public/CARDS/imagens5/milho-feijao.webp",
       "curiosidades": {
         "informacoes_gerais": "Minas está entre os maiores produtores desses grãos no país.",
         "acesso_e_trilhas": "Cultivos em regiões do Alto Paranaíba e Sul de Minas.",
@@ -723,13 +723,13 @@ const itensMinas = [
   "nome": "Geografia de Minas",
   "descricao": "Montanhas, rios, biomas e mapas que desenham a alma do estado.",
   "conteudo": "Minas Gerais é o segundo maior estado do Brasil em número de municípios e possui uma geografia rica e diversa. De serras imponentes a vales férteis, o território mineiro abriga três biomas, grandes bacias hidrográficas e paisagens que moldam sua cultura e economia.",
-  "imagem_principal": "/CARDS/imagens2/imgPrincipal.jpg",
+  "imagem_principal": "/public/CARDS/imagens2/imgPrincipal.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Biomas Mineiros",
       "descricao": "Minas abriga o Cerrado, a Mata Atlântica e a Caatinga.",
-      "imagem": "/CARDS/imagens2/biomas.png",
+      "imagem": "/public/CARDS/imagens2/biomas.png",
       "curiosidades": {
         "informacoes_gerais": "O Cerrado ocupa cerca de 60% do território mineiro.",
         "acesso_e_trilhas": "Parques como Canastra, Rio Doce e Peruaçu protegem esses biomas.",
@@ -741,7 +741,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Relevo e Montanhas",
       "descricao": "Serras e picos que desenham o horizonte mineiro.",
-      "imagem": "/CARDS/imagens2/montanhas.png",
+      "imagem": "/public/CARDS/imagens2/montanhas.png",
       "curiosidades": {
         "informacoes_gerais": "Destacam-se a Serra do Espinhaço, Serra da Mantiqueira e Serra da Canastra.",
         "acesso_e_trilhas": "Trilhas para o Pico da Bandeira, Pico do Itambé e Serra do Cipó.",
@@ -753,7 +753,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Hidrografia Mineira",
       "descricao": "Minas é berço de grandes rios brasileiros.",
-      "imagem": "/CARDS/imagens2/agua.png",
+      "imagem": "/public/CARDS/imagens2/agua.png",
       "curiosidades": {
         "informacoes_gerais": "Abriga nascentes do São Francisco, Doce, Paranaíba e Jequitinhonha.",
         "acesso_e_trilhas": "Mirantes e trilhas em São Roque de Minas, Governador Valadares e Almenara.",
@@ -765,7 +765,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Mapas e Divisões Regionais",
       "descricao": "Minas tem 853 municípios e 12 mesorregiões.",
-      "imagem": "/CARDS/imagens2/regioes.png",
+      "imagem": "/public/CARDS/imagens2/regioes.png",
       "curiosidades": {
         "informacoes_gerais": "É o estado com maior número de cidades do Brasil.",
         "acesso_e_trilhas": "Mapas interativos disponíveis em sites oficiais.",
@@ -777,7 +777,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Clima e Estações",
       "descricao": "Minas tem clima tropical com variações por altitude.",
-      "imagem": "/CARDS/imagens2/clima.png",
+      "imagem": "/public/CARDS/imagens2/clima.png",
       "curiosidades": {
         "informacoes_gerais": "Verões chuvosos e invernos secos são comuns.",
         "acesso_e_trilhas": "Ideal para turismo ecológico entre maio e setembro.",
@@ -794,13 +794,13 @@ const itensMinas = [
   "nome": "Queijos",
   "descricao": "Tradição que alimenta gerações e conquista o mundo.",
   "conteudo": "Minas Gerais é referência mundial na produção de queijos artesanais. Com técnicas passadas de geração em geração, os queijos mineiros são símbolo de identidade, sabor e cultura.",
-  "imagem_principal": "/CARDS/imagens7/queijos.jpg",
+  "imagem_principal": "/public/CARDS/imagens7/queijos.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Queijo Canastra",
       "descricao": "Produzido na Serra da Canastra, com sabor marcante.",
-      "imagem": "/CARDS/imagens7/canastra.png",
+      "imagem": "/public/CARDS/imagens7/canastra.png",
       "curiosidades": {
         "informacoes_gerais": "Feito com leite cru e maturado naturalmente.",
         "acesso_e_trilhas": "Fazendas em São Roque de Minas e Medeiros.",
@@ -812,7 +812,7 @@ const itensMinas = [
       "id": 2,
       "nome": "Queijo do Serro",
       "descricao": "Um dos mais antigos do Brasil, com sabor suave.",
-      "imagem": "/CARDS/imagens7/serro.png",
+      "imagem": "/public/CARDS/imagens7/serro.png",
       "curiosidades": {
         "informacoes_gerais": "Produzido desde o século XVIII.",
         "acesso_e_trilhas": "Fazendas familiares na região do Serro.",
@@ -825,7 +825,7 @@ const itensMinas = [
       "id": 3,
       "nome": "Queijo da Mantiqueira",
       "descricao": "Produzido em altitudes elevadas, com textura cremosa.",
-      "imagem": "/CARDS/imagens7/mantiqueira.png",
+      "imagem": "/public/CARDS/imagens7/mantiqueira.png",
       "curiosidades": {
         "informacoes_gerais": "Região entre MG, SP e RJ.",
         "acesso_e_trilhas": "Roteiros gastronômicos em Maria da Fé e Passa Quatro.",
@@ -837,7 +837,7 @@ const itensMinas = [
       "id": 4,
       "nome": "Queijo Artesanal de Alagoa",
       "descricao": "Premiado internacionalmente, com sabor intenso.",
-      "imagem": "/CARDS/imagens7/alagoa.png",
+      "imagem": "/public/CARDS/imagens7/alagoa.png",
       "curiosidades": {
         "informacoes_gerais": "Produzido na Serra da Mantiqueira.",
         "acesso_e_trilhas": "Fazendas em Alagoa e região.",
@@ -849,7 +849,7 @@ const itensMinas = [
       "id": 5,
       "nome": "Festival do Queijo",
       "descricao": "Evento que celebra a cultura queijeira mineira.",
-      "imagem": "/CARDS/imagens7/festival.png",
+      "imagem": "/public/CARDS/imagens7/festival.png",
       "curiosidades": {
         "informacoes_gerais": "Realizado em Araxá, São Roque e BH.",
         "acesso_e_trilhas": "Feiras, degustações e concursos.",
