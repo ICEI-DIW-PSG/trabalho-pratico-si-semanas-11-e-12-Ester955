@@ -5,13 +5,13 @@ const itensMinas1 = {
   "nome": "A Beleza de Minas Gerais",
   "descricao": "Montanhas que contam histórias, águas que curam e trilhas que revelam a alma do Brasil. A natureza mineira é um convite à contemplação e à aventura.",
   "conteudo": "Minas Gerais é um estado de contrastes naturais e culturais. Entre serras, cânions, cachoeiras e campos rupestres, o território mineiro abriga alguns dos cenários mais impressionantes do país.",
-  "imagem_principal": "/imagens/arvore.jpg",
+  "imagem_principal": "../public/imagens/arvore.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Serra do Cipó",
       "descricao": "Ecoturismo, trilhas e cachoeiras em meio à biodiversidade da Serra do Espinhaço.",
-      "imagem": "/BANNER/imagens1/serra-do-cipo.jpg",
+      "imagem": "../public/BANNER/imagens1/serra-do-cipo.jpg",
       "curiosidades": {
         "informacoes_gerais": "Localizada em Santana do Riacho, abriga espécies endêmicas e formações rochosas únicas.",
         "acesso_e_trilhas": "Entrada por Cardeal Mota. Trilhas como Cachoeira da Farofa e Cânion das Bandeirinhas.",
@@ -23,7 +23,7 @@ const itensMinas1 = {
       "id": 2,
       "nome": "Pico da Bandeira",
       "descricao": "O terceiro ponto mais alto do Brasil, com 2.891 metros de altitude. Localizado na Serra do Caparaó.",
-      "imagem": "/BANNER/imagens1/pico_da_bandeira.jpg",
+      "imagem": "../public/BANNER/imagens1/pico_da_bandeira.jpg",
       "curiosidades": {
         "informacoes_gerais": "Localizado entre MG e ES, é o ponto mais alto da Região Sudeste.",
         "acesso_e_trilhas": "Entrada por Alto Caparaó ou Dores do Rio Preto. Trilha de 6 km até o cume.",
@@ -35,7 +35,7 @@ const itensMinas1 = {
       "id": 3,
       "nome": "Cachoeira do Tabuleiro",
       "descricao": "A maior queda d’água de Minas, com 273 metros de altura. Um espetáculo natural em Conceição do Mato Dentro.",
-      "imagem": "/BANNER/imagens1/cachoeira-do-tabuleiro.jpg",
+      "imagem": "../public/BANNER/imagens1/cachoeira-do-tabuleiro.jpg",
       "curiosidades": {
         "informacoes_gerais": "Situada no distrito de Tabuleiro, dentro de parque municipal.",
         "acesso_e_trilhas": "Trilha de 3 km até a base. Mirante acessível por trilha leve.",
@@ -47,7 +47,7 @@ const itensMinas1 = {
       "id": 4,
       "nome": "Serra da Canastra",
       "descricao": "Campos de altitude, cachoeiras e o berço do Rio São Francisco.",
-      "imagem": "/BANNER/imagens1/serra-da-canastra.jpg",
+      "imagem": "../public/BANNER/imagens1/serra-da-canastra.jpg",
       "curiosidades": {
         "informacoes_gerais": "Abriga a nascente histórica do Rio São Francisco e fauna como o lobo-guará.",
         "acesso_e_trilhas": "Entrada por São Roque de Minas. Trilha para Casca D’Anta é a mais famosa.",
@@ -59,7 +59,7 @@ const itensMinas1 = {
       "id": 5,
       "nome": "Capitólio",
       "descricao": "Cânions, lago de Furnas e turismo de aventura em meio às águas cristalinas.",
-      "imagem": "/BANNER/imagens1/capitolio.jpg",
+      "imagem": "../public/BANNER/imagens1/capitolio.jpg",
       "curiosidades": {
         "informacoes_gerais": "Localizado às margens do Lago de Furnas, conhecido como o 'mar de Minas'.",
         "acesso_e_trilhas": "Passeios de lancha pelos cânions. Trilhas como Morro do Chapéu.",
@@ -79,13 +79,13 @@ const itensMinas1 = {
       Em 2023, a culinária mineira foi reconhecida mundialmente e eleita uma das 30 melhores do mundo pelo TasteAtlas, uma homenagem merecida a essa cozinha que encanta pelo sabor, pela simplicidade e pela hospitalidade. \n\
       Entre os pratos mais tradicionais estão o pão de queijo, o feijão-tropeiro, a galinha caipira, a canjiquinha, o tutu de feijão, o biscoito de polvilho, a vaca atolada e o clássico Romeu e Julieta.",
     "conteudo": "A culinária mineira é marcada por receitas afetivas, ingredientes simples e sabores intensos.",
-     "imagem_principal": "/imagens/comida2.jpg",
+     "imagem_principal": "../public/imagens/comida2.jpg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Feijão Tropeiro",
       "descricao": "Um clássico das trilhas dos tropeiros, feito com feijão, farinha, ovos e torresmo crocante.",
-      "imagem": "/BANNER/imagens2/feijao-tropeiro.jpg",
+      "imagem": "../public/BANNER/imagens2/feijao-tropeiro.jpg",
       "receita": {
         "ingredientes": [
           "2 cebolas picadas",
@@ -105,7 +105,7 @@ const itensMinas1 = {
       "id": 2,
       "nome": "Tutu de Feijão",
       "descricao": "Feijão batido com farinha de mandioca, temperado com alho e bacon.",
-      "imagem": "/BANNER/imagens2/tutu-de-feijão.jpg",
+      "imagem": "../public/BANNER/imagens2/tutu-de-feijão.jpg",
       "receita": {
         "ingredientes": [
           "2 xícaras de feijão cozido",
@@ -122,7 +122,7 @@ const itensMinas1 = {
       "id": 3,
       "nome": "Frango com Quiabo",
       "descricao": "Prato da roça com sabor de infância: frango dourado com quiabo fresquinho.",
-      "imagem": "/BANNER/imagens2/frango-com-quiabo.jpg",
+      "imagem": "../public/BANNER/imagens2/frango-com-quiabo.jpg",
       "receita": {
         "ingredientes": [
           "1kg de frango em pedaços",
@@ -139,7 +139,7 @@ const itensMinas1 = {
       "id": 4,
       "nome": "Doce de Leite",
       "descricao": "Cremoso, artesanal e irresistível. O doce mineiro que conquista corações.",
-      "imagem": "/BANNER/imagens2/doce-de-leite.jpg",
+      "imagem": "../public/BANNER/imagens2/doce-de-leite.jpg",
       "receita": {
         "ingredientes": [
           "2 litros de leite integral",
@@ -153,7 +153,7 @@ const itensMinas1 = {
       "id": 5,
       "nome": "Pão de Queijo",
       "descricao": "Crocante por fora, macio por dentro. Feito com polvilho e queijo curado.",
-      "imagem": "/BANNER/imagens2/pão-de-queijo.jpg",
+      "imagem": "../public/BANNER/imagens2/pão-de-queijo.jpg",
       "receita": {
         "ingredientes": [
           "500g de polvilho doce",
@@ -175,13 +175,13 @@ const itensMinas1 = {
   "nome": "Cidades Históricas",
   "descricao": "Barroco, tradição e memória preservada. Minas Gerais é um verdadeiro museu a céu aberto, onde cada cidade histórica revela capítulos marcantes da formação cultural brasileira. Entre igrejas centenárias, casarões coloniais e ruas de pedra, o visitante é transportado ao século XVIII, época do ciclo do ouro e da luta pela liberdade. A arte sacra, a arquitetura barroca e os costumes locais mantêm viva a identidade mineira, oferecendo uma experiência rica em história, fé e beleza.",
   "conteudo": "O tema Caminhos do Tempo convida você a explorar cidades que guardam relíquias do Brasil colonial. Igrejas centenárias, ruas de pedra e monumentos históricos revelam a força da fé, da arte e da liberdade que moldaram Minas Gerais.",
-  "imagem_principal": "/imagens/Mg2.jpeg",
+  "imagem_principal": "../public/imagens/Mg2.jpeg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Ouro Preto",
       "descricao": "Capital do barroco brasileiro e palco da Inconfidência Mineira.",
-      "imagem": "/BANNER/imagens3/ouro-preto.jpg",
+      "imagem": "../public/BANNER/imagens3/ouro-preto.jpg",
       "curiosidades": {
         "historia": "Ouro Preto foi fundada no final do século XVII e se tornou um dos principais centros do ciclo do ouro. A cidade foi palco da Inconfidência Mineira e é reconhecida como Patrimônio Mundial pela UNESCO desde 1980.",
         "curiosidade": "A Igreja de São Francisco de Assis, projetada por Aleijadinho e decorada por Mestre Ataíde, é considerada uma das maiores expressões do barroco latino-americano.",
@@ -192,7 +192,7 @@ const itensMinas1 = {
       "id": 2,
       "nome": "São João del-Rei",
       "descricao": "A terra onde os sinos falam.",
-      "imagem": "/BANNER/imagens3/Sao-Joao-del-Rei.jpg",
+      "imagem": "../public/BANNER/imagens3/Sao-Joao-del-Rei.jpg",
       "curiosidades": {
         "historia": "Fundada no século XVIII, São João del-Rei é cercada por montanhas e rios. Foi palco de importantes movimentos políticos e culturais, além de ser o berço de Tiradentes.",
         "curiosidade": "Os sinos das igrejas comunicam eventos sociais e religiosos com toques específicos, tradição mantida há séculos.",
@@ -203,7 +203,7 @@ const itensMinas1 = {
       "id": 3,
       "nome": "Tiradentes",
       "descricao": "Símbolo da Inconfidência Mineira.",
-      "imagem": "/BANNER/imagens3/tiradentes.jpg",
+      "imagem": "../public/BANNER/imagens3/tiradentes.jpg",
       "curiosidades": {
         "historia": "Pequena e charmosa, Tiradentes homenageia o mártir da Inconfidência. A cidade cresceu em torno da fé e da arte barroca, mantendo viva sua identidade colonial.",
         "curiosidade": "A Capela Bom Jesus da Pobreza e a Igreja Matriz de Santo Antônio são ícones da arquitetura religiosa mineira.",
@@ -214,7 +214,7 @@ const itensMinas1 = {
       "id": 4,
       "nome": "Congonhas",
       "descricao": "Obras-primas de Aleijadinho.",
-      "imagem": "/BANNER/imagens3/congonhas.jpg",
+      "imagem": "../public/BANNER/imagens3/congonhas.jpg",
       "curiosidades": {
         "historia": "Congonhas se destaca pelo conjunto escultórico do Santuário do Bom Jesus de Matosinhos, criado por Aleijadinho no século XVIII.",
         "curiosidade": "Os Doze Profetas esculpidos em pedra sabão são considerados uma das maiores expressões do barroco latino-americano.",
@@ -225,7 +225,7 @@ const itensMinas1 = {
       "id": 5,
       "nome": "Serro",
       "descricao": "Tradição, arquitetura colonial e o sabor do queijo artesanal.",
-      "imagem": "/BANNER/imagens3/serro.jpg",
+      "imagem": "../public/BANNER/imagens3/serro.jpg",
       "curiosidades": {
         "historia": "Fundada no século XVIII, Serro foi uma das primeiras vilas do interior mineiro e desempenhou papel importante no ciclo do ouro. A cidade preserva seu casario colonial e mantém viva a tradição cultural e religiosa.",
         "curiosidade": "O Serro é berço do famoso queijo artesanal que leva seu nome, reconhecido como patrimônio imaterial brasileiro.",
@@ -240,13 +240,13 @@ const itensMinas1 = {
   "nome": "Cultura e Arte",
   "descricao": "Artesanato, música e fé que revelam a alma mineira. Minas Gerais é um celeiro de manifestações populares que misturam religiosidade, criatividade e tradição. Das festas afro-brasileiras às melodias da viola caipira, cada expressão cultural é um elo entre passado e presente.",
   "conteudo": "A cultura de Minas pulsa nas festas populares e no artesanato feito à mão. Cada canto do estado revela saberes ancestrais, celebrações comunitárias e uma estética que emociona.",
-  "imagem_principal": "/imagens/artesanato.jpeg",
+  "imagem_principal": "../public/imagens/artesanato.jpeg",
   "atracoes": [
     {
       "id": 1,
       "nome": "Congado",
       "descricao": "Festa afro-brasileira com fé.",
-      "imagem": "/BANNER/imagens4/congado.jpg",
+      "imagem": "../public/BANNER/imagens4/congado.jpg",
       "curiosidades": {
         "o_que_e": "Celebração religiosa afro-brasileira que mistura fé católica com tradições africanas. Acontece principalmente em outubro, durante as festas de Nossa Senhora do Rosário.",
         "onde_acontece": "Presente em mais de 300 municípios mineiros, com destaque para Contagem, Uberlândia, São João del-Rei e Oliveira.",
@@ -258,7 +258,7 @@ const itensMinas1 = {
       "id": 2,
       "nome": "Folia de Reis",
       "descricao": "Celebração tradicional.",
-      "imagem": "/BANNER/imagens4/folia-de-reis.jpg",
+      "imagem": "../public/BANNER/imagens4/folia-de-reis.jpg",
       "curiosidades": {
         "o_que_e": "Festa popular que celebra a visita dos Três Reis Magos ao menino Jesus. Acontece entre dezembro e janeiro, com cantorias e visitas às casas.",
         "onde_acontece": "Comum em cidades como Diamantina, Guaranésia, Januária e em comunidades rurais por todo o estado.",
@@ -271,7 +271,7 @@ const itensMinas1 = {
   "id": 3,
   "nome": "Artesanato",
   "descricao": "Artesanato mineiro: cerâmica, madeira, pedra-sabão, bordados e metais.",
-  "imagem": "/BANNER/imagens4/artesanato.jpg",
+  "imagem": "../public/BANNER/imagens4/artesanato.jpg",
   "artesanato": {
     "o_que_e": "O artesanato mineiro é uma expressão cultural de Minas Gerais, com peças feitas à mão usando cerâmica, madeira, pedra-sabão, bordados, tecelagem e metais, refletindo história e criatividade local.",
     "historia_e_influencias": "Com raízes no período colonial, o artesanato mineiro combina técnicas indígenas e portuguesas, utilizando materiais naturais como barro, madeira e pedra-sabão.",
@@ -290,7 +290,7 @@ const itensMinas1 = {
   "id": 4,
   "nome": "Moda de Viola",
   "descricao": "Música caipira de raiz, típica de Minas Gerais.",
-  "imagem": "/BANNER/imagens4/viola.jpg",
+  "imagem": "../public/BANNER/imagens4/viola.jpg",
   "curiosidades": {
     "o_que_e": "A moda de viola é um estilo musical tradicional tocado com viola caipira, com melodias lentas, melancólicas e narrativas que contam histórias do cotidiano, da vida no campo e da religiosidade mineira.",
     "historia_e_influencias": "Com raízes no período colonial, a viola foi trazida por colonizadores portugueses e jesuítas, adaptando-se ao ambiente rural e tornando-se símbolo de fé, poesia e resistência.",
@@ -309,7 +309,7 @@ const itensMinas1 = {
       "id": 5,
       "nome": "Festas Juninas",
       "descricao": "Alegria e cultura popular.",
-      "imagem": "/BANNER/imagens4/festa-junina.webp",
+      "imagem": "../public/BANNER/imagens4/festa-junina.webp",
       "curiosidades": {
         "o_que_e": "Festas populares que celebram os santos juninos (São João, Santo Antônio e São Pedro), com quadrilhas, comidas típicas e fogueiras. Acontecem entre maio e julho.",
         "onde_acontece": "Em todo o estado, com destaque para Campanha, São João Nepomuceno, Belo Horizonte e cidades do interior.",

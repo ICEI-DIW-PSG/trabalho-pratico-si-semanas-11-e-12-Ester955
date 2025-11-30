@@ -4,25 +4,25 @@
       "id": "1",
       "title": "Paisagens que Inspiram",
       "description": "Cachoeiras, montanhas e paisagens de tirar o fôlego.",
-      "image": "/imagens/lapinha-da-serra.jpg"
+      "image": "/public/imagens/lapinha-da-serra.jpg"
     },
     {
       "id": "2",
       "title": "Sabores que Contam Histórias",
       "description": "Da cozinha da roça aos cafés premiados.",
-      "image": "/imagens/food.jpg"
+      "image": "/public/imagens/food.jpg"
     },
     {
       "id": "3",
       "title": "Caminhos do Tempo",
       "description": "Explore cidades coloniais e marcos da liberdade.",
-      "image": "/imagens/Mg.jpeg"
+      "image": "/public/imagens/Mg.jpeg"
     },
     {
       "id": "4",
       "title": "Fé, Festa e Identidade",
       "description": "Celebre as tradições que fazem de Minas um estado único.",
-      "image": "/imagens/festival.jpg"
+      "image": "/public/imagens/festival.jpg"
     }
   ],
   "destaques": [
@@ -30,73 +30,79 @@
       "id": "1",
       "title": "História e Patrimônio - ATUALIZADO",
       "subtitle": "Arte, revoluções e memória",
-      "image": "/CARDS/imagens1/historia.jpeg"
+      "image": "/public/CARDS/imagens1/historia.jpeg"
     },
     {
       "id": "2",
       "title": "Geografia de Minas",
       "subtitle": "Montanhas, rios e biomas",
-      "image": "/imagens/mapa.jpeg"
+      "image": "/public/imagens/mapa.jpeg"
     },
     {
       "id": "3",
       "title": "Paisagens Naturais",
       "subtitle": "Montanhas, cachoeiras e cânions",
-      "image": "imagens/PicodaBandeira.jpeg"
+      "image": "/public/imagens/PicodaBandeira.jpeg"
     },
     {
       "id": "4",
       "title": "Parques Naturais",
       "subtitle": "Preservação e biodiversidade",
-      "image": "imagens/januária.jpeg"
+      "image": "/public/imagens/januária.jpeg"
     },
     {
       "id": "5",
       "title": "Agricultura Mineira",
       "subtitle": "Do campo à mesa",
-      "image": "imagens/agricultura.webp"
+      "image": "/public/imagens/agricultura.webp"
     },
     {
       "id": "6",
       "title": "Culinária Mineira",
       "subtitle": "Sabores que acolhem",
-      "image": "imagens/paodequeijo.jpeg"
+      "image": "/public/imagens/paodequeijo.jpeg"
     },
     {
       "id": "7",
       "title": "Queijos",
       "subtitle": "Sabor que atravessa gerações",
-      "image": "imagens/queijo.jpeg"
+      "image": "/public/imagens/queijo.jpeg"
     },
     {
       "id": "8",
       "title": "Cidades Históricas",
       "subtitle": "Barroco, fé e resistência",
-      "image": "imagens/Mg2.jpeg"
+      "image": "/public/imagens/Mg2.jpeg"
     },
     {
       "id": "9",
       "title": "Festas e Tradições",
       "subtitle": "Fé, música e identidade",
-      "image": "/imagens/cultura.jpeg"
+      "image": "/public/imagens/cultura.jpeg"
     },
     {
       "id": "10",
       "title": "Personalidades Mineiras",
       "subtitle": "Gênios que nasceram em Minas",
-      "image": "/imagens/juscelino.webp"
+      "image": "/public/imagens/juscelino.webp"
     },
     {
       "id": "11",
       "title": "Belo Horizonte",
       "subtitle": "Tradição e modernidade",
-      "image": "/imagens/bh.jpg"
+      "image": "/public/imagens/bh.jpg"
     },
     {
       "id": "12",
       "title": "Ciência e Educação",
       "subtitle": "Conhecimento que transforma",
-      "image": "/imagens/ciencia.webp"
+      "image": "/public/imagens/ciencia.webp"
+    },
+    {
+      "title": "TREM",
+      "subtitle": "congonhas",
+      "image": "https://www.rotadosdestinos.com/wp-content/uploads/congonhas-do-campo-minas-gerais-sudeste.webp",
+      "id": "f28a"
     }
   ],
   "autor": [

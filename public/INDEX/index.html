@@ -56,7 +56,6 @@
 
 <!-- BANNER -->
 <!-- Carrossel -->
-
  <style>
 .main-carousel-img {
   transition: transform 5s ease;
@@ -79,6 +78,27 @@
     <span class="carousel-control-next-icon" aria-hidd en="true"></span>
     <span class="visually-hidden">Próximo</span>
   </button> 
+</div>
+
+<!--CRUD-->
+<div class="container my-5 p-4 border rounded shadow-sm">
+    <h3 class="mb-4">Adicionar/Editar Destaque (CRUD)</h3>
+    <form id="formNovoDestaque">
+      <div class="mb-3">
+    <label for="imagemUrl" class="form-label">URL/Caminho da Imagem</label>
+    <input type="text" class="form-control" id="imagemUrl" required>
+</div>
+
+        <div class="mb-3">
+            <label for="titulo" class="form-label">Título</label>
+            <input type="text" class="form-control" id="titulo" required>
+        </div>
+        <div class="mb-3">
+            <label for="subtitulo" class="form-label">Subtítulo</label>
+            <input type="text" class="form-control" id="subtitulo" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Criar Destaque (POST)</button>
+    </form>
 </div>
 
 
@@ -107,6 +127,7 @@ style="background: linear-gradient(to right, #fff0f5, #ffe4e1); padding: 2rem 0.
     </div>
   </div>
 </footer>
+
 <script src="app.js"></script>
 <script src="app1.js"></script>
 <script src="destaques.js"></script>

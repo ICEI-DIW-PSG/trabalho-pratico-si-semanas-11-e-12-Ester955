@@ -863,10 +863,11 @@ const itensMinas = [
 
 //JS
 function abrirDetalhes(id) {
-  window.location.href = `../CARDS/detalhes.html?id=${id}`;
+    window.location.href = `../CARDS/detalhes.html?id=${id}`; 
 }
 
 function abrirDetalheSubitem(idTemas, idSubitem) {
+
   window.location.href = `../CARDS/detalhes.html?id=${idTemas}&subitem=${idSubitem}`;
 }
 
@@ -879,15 +880,32 @@ function mostrarDetalhesDoItem() {
   const idSubitem = parseInt(params.get("subitem"));
 
   const Temas = itensMinas.find(t => t.id === idTemas);
+  
+  // 1. VERIFICAÇÃO DO TEMA PRINCIPAL
   if (!Temas || isNaN(idTemas)) {
     area.innerHTML = `<h2>Tema não encontrado.</h2><a href="../INDEX/index.html">← Voltar</a>`;
     return;
   }
 
   const subitem = Temas.atracoes?.find(s => s.id === idSubitem);
-  const mostrarSubitem = !isNaN(idSubitem) && subitem;
+  const tentandoMostrarSubitem = !isNaN(idSubitem);
+  const subitemExiste = subitem && tentandoMostrarSubitem;
 
-  const principal = mostrarSubitem
+  // 2. VERIFICAÇÃO DO SUBITEM (SE ESTIVER NA URL, MAS NÃO FOR ENCONTRADO)
+  if (tentandoMostrarSubitem && !subitemExiste) {
+     area.innerHTML = `
+        <div class="alert alert-danger text-center mt-5" role="alert">
+            <h4 class="alert-heading">Página não encontrada ou não criada!</h4>
+            <p>O subitem com ID ${idSubitem} não foi localizado dentro do Tema Principal.</p>
+            <hr>
+            <a href="detalhes.html?id=${idTemas}" class="btn btn-danger">← Voltar para o Tema Principal</a>
+        </div>
+    `;
+    return;
+  }
+  
+  // 3. CONTEÚDO PRINCIPAL 
+  const principal = subitemExiste
     ? `
       <h1 class="display-5 fw-bold mb-3">${subitem.nome}</h1>
       <img src="${subitem.imagem}" alt="${subitem.nome}" class="img-fluid rounded mb-4" />
@@ -899,10 +917,11 @@ function mostrarDetalhesDoItem() {
       <img src="${Temas.imagem_principal}" alt="${Temas.nome}" class="img-fluid rounded mb-4" />
       <p class="lead">${Temas.descricao}</p>
       <p>${Temas.conteudo}</p>
-    `;
+        `;
 
+  // 4. GALERIA DE OUTROS ITENS
   const galeria = Temas.atracoes
-    ?.filter(s => !mostrarSubitem || s.id !== idSubitem)
+    ?.filter(s => !subitemExiste || s.id !== idSubitem)
     .map(s => `
       <div class="card-grande" onclick="abrirDetalheSubitem(${idTemas}, ${s.id})">
         <img src="${s.imagem}" class="card-img-top" alt="${s.nome}" style="height:140px; object-fit:cover;">
@@ -914,8 +933,11 @@ function mostrarDetalhesDoItem() {
     `).join("") || "<p>Nenhum subitem disponível.</p>";
 
   area.innerHTML = `
-    ${principal}
-    <h4 class="fw-bold text-secondary mt-5 mb-3">Outros itens relacionados</h4>
+    <div class="card-principal mb-5 p-4 bg-white text-center">
+        ${principal}
+    </div>
+    
+    <h4 class="fw-bold text-secondary mt-5 mb-3 text-center">Outros itens relacionados</h4>
     <div class="d-flex align-items-center justify-content-center gap-2">
       <button class="btn btn-light btn-sm" id="btnPrev">❮</button>
       <div id="galeriaContainer" class="d-flex overflow-auto p-2" style="scroll-behavior:smooth; max-width:80%;">
@@ -926,8 +948,10 @@ function mostrarDetalhesDoItem() {
   `;
 
   const container = document.getElementById("galeriaContainer");
-  document.getElementById("btnPrev").onclick = () => container.scrollBy({ left: -300, behavior: "smooth" });
-  document.getElementById("btnNext").onclick = () => container.scrollBy({ left: 300, behavior: "smooth" });
+  if (container) {
+    document.getElementById("btnPrev").onclick = () => container.scrollBy({ left: -300, behavior: "smooth" });
+    document.getElementById("btnNext").onclick = () => container.scrollBy({ left: 300, behavior: "smooth" });
+  }
 }
-
+            
 document.addEventListener("DOMContentLoaded", mostrarDetalhesDoItem);
