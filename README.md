@@ -6,20 +6,20 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ester Cristine de Assis Ferreira
+- Matricula: 1625330
+- Proposta de projeto escolhida:2. Lugares e Experiências
+- Breve descrição sobre seu projeto:Esse site é um projeto que estou criando pra reunir tudo que representa Minas Gerais de forma clara e acessível. A ideia é mostrar lugares, tradições, comidas e histórias que fazem parte do nosso estado, sem complicação. É pra quem quer conhecer melhor Minas ou simplesmente se conectar com o que ela tem de único. Tudo feito com atenção aos detalhes e muito respeito pela cultura mineira.
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![GET](public\imagens\GET.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![POST](public\imagens\POST.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![PUT](public\imagens\PUT.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![DELETE](public\imagens\DELETE.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
